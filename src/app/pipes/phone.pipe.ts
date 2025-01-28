@@ -11,7 +11,7 @@ export class PhonePipe implements PipeTransform {
 
     //Validação para saber se o número de telefone é valido
     if(!phone || phone.length < 10 || phone.length > 11){
-      return "⚠️ Telefone indisponivel ou inválido! ⚠️"
+      return "⚠️ Telefone inexistente ou inválido! ⚠️"
     }
 
     //Validação para saber se o número é de CELULAR
