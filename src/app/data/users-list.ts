@@ -114,5 +114,143 @@ export const UsersList: IUser[] = [{
         assinaturaAtiva: false,
         ultimoAcesso: "2025-08-25T09:00:00.000Z"
     }
-}
+},
+{
+    nome: "Lucas Sales",
+    email: "lucas.sales@exemplo.com",
+    senha: "luquinha1234",
+    idade: 27,
+    endereco: {
+        rua: "Rua Voluntários de Marte",
+        numero: 1789,
+        cidade: "São Paulo",
+        estado: "SP",
+        pais: "Brasil"
+    },
+    telefone: "11987452547",
+    ativo: true,
+    funcao: "Desenvolvedor",
+    dataCadastro: "2025-08-21T09:00:00.000Z",
+    status: {
+        online: false,
+        verificado: true,
+        assinaturaAtiva: false,
+        ultimoAcesso: "2025-08-25T09:00:00.000Z"
+    }
+},
+{
+    nome: "Lucas Sales",
+    email: "lucas.sales@exemplo.com",
+    senha: "luquinha1234",
+    idade: 27,
+    endereco: {
+        rua: "Rua Voluntários de Marte",
+        numero: 1789,
+        cidade: "São Paulo",
+        estado: "SP",
+        pais: "Brasil"
+    },
+    telefone: "11987452547",
+    ativo: true,
+    funcao: "Desenvolvedor",
+    dataCadastro: "2025-08-21T09:00:00.000Z",
+    status: {
+        online: false,
+        verificado: true,
+        assinaturaAtiva: false,
+        ultimoAcesso: "2025-08-25T09:00:00.000Z"
+    }
+},
+{
+    nome: "Mariana Silva",
+    email: "mari.silva@exemplo.com",
+    senha: "maria1234",
+    idade: 26,
+    endereco: {
+        rua: "Av. Paulista",
+        numero: 1000,
+        cidade: "São Paulo",
+        estado: "SP",
+        pais: "Brasil"
+    },
+    telefone: "11987654321",
+    ativo: true,
+    funcao: "Analista",
+    dataCadastro: "2025-08-22T10:00:00.000Z",
+    status: {
+        online: false,
+        verificado: true,
+        assinaturaAtiva: false,
+        ultimoAcesso: "2025-08-25T12:00:00.000Z"
+    }
+},
+{
+    nome: "Carlos Martins",
+    email: "carlos.martins@exemplo.com",
+    senha: "carlosm2021",
+    idade: 35,
+    endereco: {
+        rua: "Rua da Consolação",
+        numero: 150,
+        cidade: "São Paulo",
+        estado: "SP",
+        pais: "Brasil"
+    },
+    telefone: "11996543210",
+    ativo: false,
+    funcao: "Gerente",
+    dataCadastro: "2025-07-15T08:30:00.000Z",
+    status: {
+        online: false,
+        verificado: false,
+        assinaturaAtiva: false,
+        ultimoAcesso: "2025-08-20T09:45:00.000Z"
+    }
+},
+{
+    nome: "Beatriz Silva",
+    email: "beatriz.silva@exemplo.com",
+    senha: "beasilva2022",
+    idade: 28,
+    endereco: {
+        rua: "Rua Oscar Freire",
+        numero: 200,
+        cidade: "São Paulo",
+        estado: "SP",
+        pais: "Brasil"
+    },
+    telefone: "11998765432",
+    ativo: true,
+    funcao: "Designer",
+    dataCadastro: "2025-06-12T14:00:00.000Z",
+    status: {
+        online: true,
+        verificado: true,
+        assinaturaAtiva: true,
+        ultimoAcesso: "2025-08-25T11:30:00.000Z"
+    }
+},
+{
+    nome: "Daniel Ferreira",
+    email: "daniel.ferreira@exemplo.com",
+    senha: "danielf123",
+    idade: 32,
+    endereco: {
+        rua: "Rua Haddock Lobo",
+        numero: 75,
+        cidade: "São Paulo",
+        estado: "SP",
+        pais: "Brasil"
+    },
+    telefone: "11991234567",
+    ativo: false,
+    funcao: "Administrador",
+    dataCadastro: "2025-05-20T13:00:00.000Z",
+    status: {
+        online: false,
+        verificado: true,
+        assinaturaAtiva: false,
+        ultimoAcesso: "2025-08-23T15:00:00.000Z"
+    }
+},
 ]
