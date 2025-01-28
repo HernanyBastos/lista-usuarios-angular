@@ -16,9 +16,9 @@ export class PhonePipe implements PipeTransform {
 
     //Validação para saber se o número é de CELULAR
     if(phone.length === 11){
-      return `(${phone.substring(0, 2)}) ${phone.substring(0, 7)} - ${phone.substring(7)}`
+      return `(${phone.substring(0, 2)}) ${phone.substring(2, 7)} - ${phone.substring(7)}`
     } else {
-      return `(${phone.substring(0, 2)}) ${phone.substring(0, 6)} - ${phone.substring(6)}`
+      return `(${phone.substring(0, 2)}) ${phone.substring(2, 6)} - ${phone.substring(6)}`
     }
   }
 
