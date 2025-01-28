@@ -4,12 +4,14 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 import { FilterComponent } from './filter/filter.component';
 import { FormsModule } from "@angular/forms";
 import { NgFor } from "@angular/common";
+import { UsersListComponent } from './users-list/users-list.component';
 
 
 @NgModule({
     declarations: [
     UserDetailsComponent,
-    FilterComponent
+    FilterComponent,
+    UsersListComponent
   ],
     imports: [
         AngularMaterialModule,
@@ -18,7 +20,8 @@ import { NgFor } from "@angular/common";
     ],
     exports: [
       UserDetailsComponent,
-      FilterComponent
+      FilterComponent,
+      UsersListComponent
     ]
 })
 export class ComponentsModule {}
