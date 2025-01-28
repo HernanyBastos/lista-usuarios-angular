@@ -139,27 +139,27 @@ export const UsersList: IUser[] = [{
     }
 },
 {
-    nome: "Lucas Sales",
-    email: "lucas.sales@exemplo.com",
-    senha: "luquinha1234",
-    idade: 27,
-    endereco: {
-        rua: "Rua Voluntários de Marte",
-        numero: 1789,
-        cidade: "São Paulo",
-        estado: "SP",
-        pais: "Brasil"
-    },
-    telefone: "11987452547",
-    ativo: true,
-    funcao: "Desenvolvedor",
-    dataCadastro: "2025-08-21T09:00:00.000Z",
-    status: {
-        online: false,
-        verificado: true,
-        assinaturaAtiva: false,
-        ultimoAcesso: "2025-08-25T09:00:00.000Z"
-    }
+    nome: "Gabriela Lima",
+        email: "gabriela.lima@exemplo.com",
+        senha: "gabi_lima2023",
+        idade: 26,
+        endereco: {
+            rua: "Avenida Faria Lima",
+            numero: 300,
+            cidade: "São Paulo",
+            estado: "SP",
+            pais: "Brasil"
+        },
+        telefone: "11999887766",
+        ativo: true,
+        funcao: "Desenvolvedora",
+        dataCadastro: "2025-07-05T16:00:00.000Z",
+        status: {
+            online: true,
+            verificado: true,
+            assinaturaAtiva: true,
+            ultimoAcesso: "2025-08-25T14:00:00.000Z"
+        }
 },
 {
     nome: "Mariana Silva",
