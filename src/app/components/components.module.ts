@@ -3,7 +3,7 @@ import { AngularMaterialModule } from "../angular-material/angular-material.modu
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { FilterComponent } from './filter/filter.component';
 import { FormsModule } from "@angular/forms";
-import { NgFor } from "@angular/common";
+import { CommonModule, NgFor } from "@angular/common";
 import { UsersListComponent } from './users-list/users-list.component';
 import { PipesModules } from "../pipes/pipes.module";
 
@@ -18,12 +18,13 @@ import { PipesModules } from "../pipes/pipes.module";
         AngularMaterialModule,
         FormsModule,
         NgFor,
-        PipesModules
+        PipesModules,
+        CommonModule
     ],
     exports: [
       UserDetailsComponent,
       FilterComponent,
       UsersListComponent
-    ]
+    ],
 })
 export class ComponentsModule {}

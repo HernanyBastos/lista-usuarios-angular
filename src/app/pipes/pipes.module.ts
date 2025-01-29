@@ -4,17 +4,23 @@ import { AddressPipe } from './address.pipe';
 import { StatusPipe } from './status.pipe';
 
 
+
+
+
 @NgModule({
     declarations: [
-    PhonePipe,
-    AddressPipe,
-    StatusPipe
-], 
+        PhonePipe,
+        AddressPipe,
+        StatusPipe,
+
+    ],
     exports: [
-    PhonePipe,
-    AddressPipe,
-    StatusPipe
-    ]
+        PhonePipe,
+        AddressPipe,
+        StatusPipe,
+
+    ],
+
 })
 
-export class PipesModules {}
+export class PipesModules { }
